@@ -141,7 +141,7 @@ def load_data(data_path:str):
 
 
 # Load Data
-file_path = '/Users/sumonaung/Desktop/env/mystreamlit/ibme_anime/Data/Example to Su.xlsx'
+file_path = '/Data/Example to Su.xlsx'
 df = pd.read_excel(file_path,sheet_name=1) #sep=';'
 
 # Create ipyvizzu Object
