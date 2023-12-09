@@ -42,7 +42,7 @@ def create_chart():
     data = Data()
 
 
-    #df = pd.read_excel("/Users/sumonaung/Desktop/env/mystreamlit/ibme_anime/Data/Example to Su.xlsx",sheet_name=1)
+    #df = pd.read_excel("/Data/Example to Su.xlsx",sheet_name=1)
 
     df = load_data(uploaded_file)
 
